@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T14:39:23.422Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="q8BqeJVR3nqZJpxuNFKF" version="24.4.9" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2024-05-28T14:44:33.754Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="Mxix7ipW6FJBKwAt7Pbt" version="24.4.9" type="github" pages="11">
   <diagram id="Y2eHXceLO5q77IRkCuiS" name="Main Existing Process ">
     <mxGraphModel dx="2441" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -380,7 +380,7 @@
         <mxCell id="EX8Zy7shsUyCUedpD0rH-2" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="411" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u-u-BjuH_KMp1-HSWydg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.514;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="elMBcsQxJQfE7-rjxcNW-16" target="elMBcsQxJQfE7-rjxcNW-3">
+        <mxCell id="u-u-BjuH_KMp1-HSWydg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.514;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="elMBcsQxJQfE7-rjxcNW-16" target="elMBcsQxJQfE7-rjxcNW-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="700" y="506" />
@@ -388,7 +388,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="u-u-BjuH_KMp1-HSWydg-4" value="Members Credential" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="u-u-BjuH_KMp1-HSWydg-3">
+        <mxCell id="u-u-BjuH_KMp1-HSWydg-4" value="Members Credential" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="u-u-BjuH_KMp1-HSWydg-3" vertex="1" connectable="0">
           <mxGeometry x="0.0388" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -397,10 +397,28 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CMloHNQ0wmYo9-GDyiSY" name="Level 2 (Attendance)">
-    <mxGraphModel dx="1114" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1964" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="E72vZt5Xvn1a7JmbrH1C-1" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Member Records" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=center;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+          <mxGeometry x="-230" y="233" width="150" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="vjvNdTXj86Oxpo6xxF8Y-6" value="&lt;div&gt;Checked in&lt;/div&gt;&lt;div&gt;Information&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="i1mEo9lLdiqg6RX_RoVm-1" target="E72vZt5Xvn1a7JmbrH1C-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1mEo9lLdiqg6RX_RoVm-1" value="2.1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="205" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="i1mEo9lLdiqg6RX_RoVm-2" value="&lt;div&gt;Log-Book&lt;/div&gt;&lt;div&gt;Check in&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="i1mEo9lLdiqg6RX_RoVm-1">
+          <mxGeometry y="26" width="140" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="vjvNdTXj86Oxpo6xxF8Y-1" value="Member " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vjvNdTXj86Oxpo6xxF8Y-5" value="&lt;div&gt;Member &lt;br&gt;&lt;/div&gt;&lt;div&gt;Credential&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.014;entryY=0.297;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vjvNdTXj86Oxpo6xxF8Y-1" target="i1mEo9lLdiqg6RX_RoVm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
